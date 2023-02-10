@@ -23,8 +23,8 @@ class Data:
         self.geo = 'KR' # pytrend 기준 위치 설정
         self.month = 1 # 현재부터 n개월간의 기록 (정수만 입력)
         self.update = 1 # 업데이트할 주기(단위 sec)  # 86400 하루
-        self.address = "C:/Users/user/Desktop/swa-java-2023/팀프로젝트/0209_pytrend_flaks_api/ranking_data.csv"
-        self.dicts = 7
+        self.address = "C:/Users/sbeen/OneDrive/바탕 화면/ranking_data.csv"
+        self.dicts = 7 # 웹에 띄워지는 초기값
         # self.jsons = 0
 
 
