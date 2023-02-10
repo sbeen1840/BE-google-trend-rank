@@ -41,9 +41,14 @@ If there are no error messages upon importing the above dependencies, it would i
 
 Suppose you have a CSV file containing keywords up to five in one row
 
-### Step 2 : Run the script by typing python `main.py` in the terminal.
+### Step 2 : Change Change the route of csv file.
 
-### Step 3 : Access the data by visiting `http://localhost:5000` in your web browser.
+```
+self.address = "C:/Users/sbeen/OneDrive/바탕 화면/keyword_data.csv"
+```
+### Step 3 : Run the script by typing python `main.py` in the terminal.
+
+### Step 4 : Access the data by visiting `http://localhost:5000` in your web browser.
 
 After running the script, you can access keywords representing the search trend by visiting [http://localhost:5000](http://localhost:5000/) in your web browser. You can also see their search volume, normalized. The data will be presented in the form of  json and sorted in descending order.
 
