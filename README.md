@@ -71,5 +71,3 @@ As of `2023/02/10`, the above installation and execution steps are only tested o
 ## 🙏 Acknowledgments
 
 ## ✍ References
-
-[1]
