@@ -21,6 +21,8 @@
   `address`: file path to a CSV file that contains keywords
   
   `data`: a placeholder for the data (defaults to 0)
+  
+  
 
 `read_csv`
 
@@ -28,10 +30,14 @@
   > lines is a list of lists containing similar keywords. 
   > keys is a list of representative keywords.
 
+
+
 `py_trends`
 
   > uses the pytrends library to retrieve data for the keywords and computes the sum of the data for each keyword. 
   > The sums are stored in a list sums.
+
+
 
 `to_json`
 
