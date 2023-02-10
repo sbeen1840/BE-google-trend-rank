@@ -54,7 +54,7 @@ After running the script, you can access keywords representing the search trend 
 
 ## 📑 Execution
 
-`docs/analyzer_exec.ipynb` describes the execution steps of this program pipeline in detail.
+`docs/trend_exec.ipynb` describes the execution steps of this program pipeline in detail.
 
 ## 📌 Notes
 
