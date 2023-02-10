@@ -20,6 +20,6 @@ def get_data():
 if __name__ == "__main__":
     
     t1 = threading.Thread(target=data.main)
-    t2 = threading.Thread(target=app.run) #debug=True
+    t2 = threading.Thread(target=app.run) #에러보려면, app.run(debug=True)
     t1.start()
     t2.start()
