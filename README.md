@@ -10,16 +10,11 @@ Python 3.x
 
 pandas
 
-numpy
+pytrends
 
 flask
 
-Google Trends API (optional, for more data points)
-
-
 ## ✅ Prerequisites
-Google account with Google Trends API enabled
-
 CSV file containing keywords
 
 ## 💡 Usage
@@ -27,16 +22,15 @@ Clone the repository to your local machine.
 
 Install the required libraries by running pip install -r requirements.txt in the terminal.
 
-Replace the placeholder in the script with your Google Trends API key.
-
 Update the keywords in the CSV file.
 
 Run the script by typing python main.py in the terminal.
 
-Access the data by visiting http://localhost:5000 in your web browser.
+Access the data by visiting `http://localhost:5000` in your web browser.
 
 ## 🔎 Usage Example
 Suppose you have a CSV file containing the following keywords:
+
 |1|2|3|4|5|
 |---|---|---|---|---|
 |JAVA| java|
