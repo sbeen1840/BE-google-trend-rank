@@ -40,6 +40,13 @@ If there are no error messages upon importing the above dependencies, it would i
 
 ### Step 1 : Update the keywords in the CSV file.
 
+|1|2|3|4|5|
+|---|---|---|---|---|
+|JAVA| java|
+|C++| c++|
+|PYTHON| python| py| PY|
+|javaScript| javascript| JAVASCRITP|
+
 Suppose you have a CSV file containing keywords up to five in one row
 
 ### Step 2 : Change Change the route of csv file.
