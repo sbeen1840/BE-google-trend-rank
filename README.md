@@ -56,7 +56,7 @@ After running the script, you can access keywords representing the search trend 
 # 💡 Results
 |Console output|Web json data http://localhost:5000 |
 |--|--|
-|![](https://velog.velcdn.com/images/sbeen1840/post/ebce6bfb-d833-4f32-bfd8-4010b64fe9d4/image.png)|![image](https://user-images.githubusercontent.com/108644811/218121824-7d51c36d-b02a-4121-a5cb-e1db4982d267.png)|
+|![](https://velog.velcdn.com/images/sbeen1840/post/ebce6bfb-d833-4f32-bfd8-4010b64fe9d4/image.png)|![image](https://user-images.githubusercontent.com/108644811/218129926-1a4f0d54-57c6-4b75-bcc6-b33929be18c7.png)|
 
 
 # 📑 Execution
