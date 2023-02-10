@@ -1,13 +1,9 @@
 # **Google-Trends-Analyzer**
 
 A Python script that scrapes and analyzes data using Google Trends and various Python libraries.
-![image](https://user-images.githubusercontent.com/108644811/218126189-ab830f9f-f36d-4038-9360-20c6434a0c9e.png)
+![image](https://user-images.githubusercontent.com/108644811/218128901-5ed308e9-f441-48c7-834a-a6b926ac185c.png)
 
-|Console output|Web json data http://localhost:5000 |
-|--|--|
-|![](https://velog.velcdn.com/images/sbeen1840/post/ebce6bfb-d833-4f32-bfd8-4010b64fe9d4/image.png)|![image](https://user-images.githubusercontent.com/108644811/218121824-7d51c36d-b02a-4121-a5cb-e1db4982d267.png)|
-
-## 📥 Installation Guide
+# 📥 Installation Guide
 
 ### Step 1 : Clone the Repository
 
@@ -40,7 +36,7 @@ $ python
 
 If there are no error messages upon importing the above dependencies, it would indicate that the they are correctly installed.
 
-## 🔎 Usage
+# 🔎 Usage
 
 ### Step 1 : Update the keywords in the CSV file.
 
@@ -57,22 +53,28 @@ self.address = "C:/Users/sbeen/OneDrive/바탕 화면/keyword_data.csv"
 
 After running the script, you can access keywords representing the search trend by visiting [http://localhost:5000](http://localhost:5000/) in your web browser. You can also see their search volume, normalized. The data will be presented in the form of  json and sorted in descending order.
 
-## 📑 Execution
+# 💡 Results
+|Console output|Web json data http://localhost:5000 |
+|--|--|
+|![](https://velog.velcdn.com/images/sbeen1840/post/ebce6bfb-d833-4f32-bfd8-4010b64fe9d4/image.png)|![image](https://user-images.githubusercontent.com/108644811/218121824-7d51c36d-b02a-4121-a5cb-e1db4982d267.png)|
+
+
+# 📑 Execution
 
 `docs/trend_exec.ipynb` describes the execution steps of this program pipeline in detail.
 
-## 📌 Notes
+# 📌 Notes
 
 As of `2023/02/10`, the above installation and execution steps are only tested on `Window11`. We will update as soon as we test the installation and execution steps on `Linux` and `MacOS`.
 
-## 👤 Authors
+# 👤 Authors
 
 - sbeen1840
 
-## 🏷 License
+# 🏷 License
 
 - This project is licensed under the `MIT License` - see the [LICENSE](notion://www.notion.so/LICENSE) file for details
 
-## 🙏 Acknowledgments
+# 🙏 Acknowledgments
 
-## ✍ References
+# ✍ References
