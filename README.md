@@ -55,8 +55,9 @@ Suppose you have a CSV file containing keywords up to five in one row
 self.address = "C:/Users/sbeen/OneDrive/바탕 화면/keyword_data.csv"
 ```
 ### Step 3 : Run the script by typing python `main.py` in the terminal.
+![image](https://user-images.githubusercontent.com/108644811/218135256-a527b011-0b86-4f49-98ee-83b8b41698b1.png)
 
-### Step 4 : Access the data by visiting `http://localhost:5000` in your web browser.
+### Step 4 : Access the data by visiting `http://localhost:5000` in your web browser.
 
 After running the script, you can access keywords representing the search trend by visiting [http://localhost:5000](http://localhost:5000/) in your web browser. You can also see their search volume, normalized. The data will be presented in the form of  json and sorted in descending order.
 
