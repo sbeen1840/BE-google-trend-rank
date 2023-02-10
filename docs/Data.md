@@ -1,6 +1,6 @@
 # class `Data`
 
-`__init__`
+`__init__()`
 
 > a class named Data with a constructor method __ __init__ __() that sets the following variables:
 
@@ -24,7 +24,7 @@
   
   
 
-`read_csv`
+`read_csv()`
 
   > reads the CSV file and creates two lists: lines and keys. 
   > lines is a list of lists containing similar keywords. 
@@ -32,13 +32,13 @@
 
 
 
-`py_trends`
+`py_trends()`
 
   > uses the pytrends library to retrieve data for the keywords and computes the sum of the data for each keyword. 
   > The sums are stored in a list sums.
 
 
 
-`to_json`
+`to_json()`
 
  >  converts the keys and sums lists into a JSON file.
