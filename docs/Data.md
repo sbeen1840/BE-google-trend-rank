@@ -20,7 +20,7 @@
   
   `address`: file path to a CSV file that contains keywords
   
-  `data`: a placeholder for the data (defaults to 0)
+  `dicts`: a placeholder for the data (defaults to 7)
   
   
 
