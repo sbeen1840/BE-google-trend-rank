@@ -1,6 +1,11 @@
 # **Google-Trends-Analyzer**
 
 A Python script that scrapes and analyzes data using Google Trends and various Python libraries.
+![image](https://user-images.githubusercontent.com/108644811/218126189-ab830f9f-f36d-4038-9360-20c6434a0c9e.png)
+
+|Console output|Web json data http://localhost:5000 |
+|--|--|
+|![](https://velog.velcdn.com/images/sbeen1840/post/ebce6bfb-d833-4f32-bfd8-4010b64fe9d4/image.png)|![image](https://user-images.githubusercontent.com/108644811/218121824-7d51c36d-b02a-4121-a5cb-e1db4982d267.png)|
 
 ## 📥 Installation Guide
 
