@@ -2,7 +2,7 @@
 
 `__init__`
 
-> a class named Data with a constructor method __init__() that sets the following variables:
+> a class named Data with a constructor method __ __init__ __() that sets the following variables:
 
 - parameters: 
 
