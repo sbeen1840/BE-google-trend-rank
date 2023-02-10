@@ -1,45 +1,70 @@
-# Google-Trends-Analyzer
+# **Google-Trends-Analyzer**
+
 A Python script that scrapes and analyzes data using Google Trends and various Python libraries.
 
-## 😀 Author
-sbeen1840
+## 📥 Installation Guide
 
+### Step 1 : Clone the Repository
 
-## 📥 Environment
-Python 3.x
+Clone the repository using the following command.
 
-pandas
+```
+$ git clone https://github.com/sbeen1840/Google-Trends-Analyzer.git
+```
 
-pytrends
+### Step 2 : Install Dependencies
 
-flask
+**Note** : It is recommended to use a `conda environment` with `Python 3.6` with this code. Before running the commands in this guide, make sure you activate the environment using `$ source activate <name of the env>`
 
-## ✅ Prerequisites
-CSV file containing keywords
+The use the `requirements.txt` file given in the repository to install the dependencies via `pip`.
 
-## 💡 Usage
-Clone the repository to your local machine.
+```
+$ pip install -r requirements.txt
+```
 
-Install the required libraries by running pip install -r requirements.txt in the terminal.
+### Step 3 : Verify the installation of dependencies
 
-Update the keywords in the CSV file.
+To verify whether `pandas`, `pytrends` and `trend` were installed properly, run the following.
 
-Run the script by typing python main.py in the terminal.
+```
+$ python
+>>> import pandas
+>>> import pytrends
+>>> import trend
+```
 
-Access the data by visiting `http://localhost:5000` in your web browser.
+If there are no error messages upon importing the above dependencies, it would indicate that the they are correctly installed.
 
-## 🔎 Usage Example
-Suppose you have a CSV file containing the following keywords:
+## 🔎 Usage
 
-|1|2|3|4|5|
-|---|---|---|---|---|
-|JAVA| java|
-|C++| c++|
-|PYTHON| python| py| PY|
-|javaScript| javascript| JAVASCRITP|
+### Step 1 : Update the keywords in the CSV file.
 
-*Up to five can be written in one row
+Suppose you have a CSV file containing keywords up to five in one row
 
-*After running the script, you can access the data on these keywords' popularity by visiting http://localhost:5000 in your web browser. 
-The data will be presented in the form of a line chart, showing the trends over time. 
-You can also adjust the time frame by using the dropdown menu on the web page.
+### Step 2 : Run the script by typing python `main.py` in the terminal.
+
+### Step 3 : Access the data by visiting `http://localhost:5000` in your web browser.
+
+After running the script, you can access keywords representing the search trend by visiting [http://localhost:5000](http://localhost:5000/) in your web browser. You can also see their search volume, normalized. The data will be presented in the form of  json and sorted in descending order.
+
+## 📑 Execution
+
+`docs/analyzer_exec.ipynb` describes the execution steps of this program pipeline in detail.
+
+## 📌 Notes
+
+As of `2023/02/10`, the above installation and execution steps are only tested on `Window11`. We will update as soon as we test the installation and execution steps on `Linux` and `MacOS`.
+
+## 👤 Authors
+
+- sbeen1840
+
+## 🏷 License
+
+- This project is licensed under the `MIT License` - see the [LICENSE](notion://www.notion.so/LICENSE) file for details
+
+## 🙏 Acknowledgments
+
+## ✍ References
+
+[1]
