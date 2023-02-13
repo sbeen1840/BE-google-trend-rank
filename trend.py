@@ -24,7 +24,7 @@ class Data:
         self.month = 1 # 현재부터 n개월간의 기록 (정수만 입력)
         self.update = 1 # 업데이트할 주기(단위 sec)  # 86400 하루
         self.address = csv_address # main.py에서 지
-        self.dicts = 7
+        self.dicts = 7 # json파일의 초기
         # self.jsons = 0
 
 

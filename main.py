@@ -13,6 +13,10 @@ csv1 = "C:/Users/user/Desktop/swa-java-2023/팀프로젝트/keyword_language.csv
 csv2 = "C:/Users/user/Desktop/swa-java-2023/팀프로젝트/keyword_jobgroup.csv"
 csv3 = "C:/Users/user/Desktop/swa-java-2023/팀프로젝트/keyword_academy.csv"
 
+theme1 = "프로그래밍언어"
+theme2 = "개발직군"
+theme3 = "개발교육"
+
 data1 = Data(csv1)
 data2 = Data(csv2)
 data3 = Data(csv3)
@@ -22,7 +26,7 @@ app.config['JSON_AS_ASCII'] = False
 
 @app.route('/home', methods=['GET'])
 def get_data():
-    datas = {"프로그래밍언어":data1.dicts, "개발직군":data2.dicts, "개발교육":data3.dicts}
+    datas = { theme1 : data1.dicts, theme2 : data2.dicts, theme3 : data3.dicts}
     return jsonify(datas)
 
 
