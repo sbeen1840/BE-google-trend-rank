@@ -1,7 +1,8 @@
 # **Google-Trends-Analyzer**
 
 A Python script that scrapes and analyzes data using Google Trends and various Python libraries.
-![image](https://user-images.githubusercontent.com/108644811/218132616-bb7c7182-d5a9-4d68-b0f9-b5843c737ad3.png)
+
+![image](https://user-images.githubusercontent.com/108644811/218410166-55c0f2c1-6567-44d5-b5e7-1d2c08ab7f02.png)
 
 # 📥 Installation Guide
 
@@ -38,7 +39,7 @@ If there are no error messages upon importing the above dependencies, it would i
 
 # 🔎 Usage
 
-### Step 1 : Update the keywords in the CSV file.
+### Step 1 : Update the keywords in the three CSV files.
 
 |1|2|3|4|5|
 |---|---|---|---|---|
@@ -47,17 +48,41 @@ If there are no error messages upon importing the above dependencies, it would i
 |PYTHON| python| py| PY|
 |javaScript| javascript| JAVASCRITP|
 
-Suppose you have a CSV file containing keywords up to five in one row
+Suppose you have a CSV file containing keywords up to five in one row.
 
-### Step 2 : Change Change the route of csv file.
+The first index of each row becomes the representative keyword.
+
+Keywords similar to the representative keywords may be entered in each row.
+
+### Step 2 : Change the route of csv file and set the themes of the files in main.py
 
 ```
-self.address = "C:/Users/sbeen/OneDrive/바탕 화면/keyword_data.csv"
+csv1 = "C:/Users/user/Desktop/swa-java-2023/팀프로젝트/keyword_language.csv"
+csv2 = "C:/Users/user/Desktop/swa-java-2023/팀프로젝트/keyword_jobgroup.csv"
+csv3 = "C:/Users/user/Desktop/swa-java-2023/팀프로젝트/keyword_academy.csv"
+
+theme1 = "프로그래밍언어"
+theme2 = "개발직군"
+theme3 = "개발교육"
 ```
-### Step 3 : Run the script by typing python `main.py` in the terminal.
+
+### Step 3 : Change the variables for data collection in trend.py file.
+```
+self.numb = 2 # 상위부터 추출 개수 
+self.lang = 'ko' # pytrend 기준 언어 설정
+self.time = 540 # pytrend 기준 시간대 설정
+self.geo = 'KR' # pytrend 기준 위치 설정
+self.month = 1 # 현재부터 n개월간의 기록 (정수만 입력)
+self.update = 1 # 업데이트할 주기(단위 sec)  # 86400 하루
+self.address = csv_address # main.py에서 지
+self.dicts = 7 # json파일의 초기
+```
+
+
+### Step 4 : Run the script by typing python `main.py` in the terminal.
 ![image](https://user-images.githubusercontent.com/108644811/218135256-a527b011-0b86-4f49-98ee-83b8b41698b1.png)
 
-### Step 4 : Access the data by visiting `http://localhost:5000` in your web browser.
+### Step 5 : Access the data by visiting `http://localhost:5000` in your web browser.
 
 After running the script, you can access keywords representing the search trend by visiting [http://localhost:5000](http://localhost:5000/) in your web browser. You can also see their search volume, normalized. The data will be presented in the form of  json and sorted in descending order.
 

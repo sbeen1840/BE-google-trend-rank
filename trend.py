@@ -14,7 +14,7 @@ from pytrends.request import TrendReq
 
 #%%
 class Data:
-    def __init__(self):
+    def __init__(self, csv_address):
 
         # 사용자 맞춤 변수 지정
         self.numb = 2 # 상위부터 추출 개수 
@@ -23,8 +23,8 @@ class Data:
         self.geo = 'KR' # pytrend 기준 위치 설정
         self.month = 1 # 현재부터 n개월간의 기록 (정수만 입력)
         self.update = 1 # 업데이트할 주기(단위 sec)  # 86400 하루
-        self.address = "C:/Users/sbeen/OneDrive/바탕 화면/keyword_data.csv"
-        self.dicts = 7 # 웹에 띄워지는 초기값
+        self.address = csv_address # main.py에서 지
+        self.dicts = 7
         # self.jsons = 0
 
 
@@ -57,9 +57,12 @@ class Data:
         print('\n유사키워드에 대한 검색량 총합 :\n', df)
         df = df.sort_values(by='sums', ascending=False) # 내림차순
         print('\n키워드별 정렬:\n', df)
+        df['ranks'] = range(1, len(df) + 1)
+        print('\n순위 인덱스 추가:\n', df)
         df = df[:self.numb]
         print('\n상위 n개 추출:\n', df)
-        df = df.set_index('keys').T 
+        df = df.set_index('ranks').T 
+        print(df)
         self.dicts = df.to_dict('records')[0] #orient = 'records'임
         print('\nGET에 사용될 정보 :', self.dicts)
         self.jsons = json.dumps(self.dicts) # dict -> json
