@@ -87,9 +87,13 @@ self.dicts = 7 # json파일의 초기
 After running the script, you can access keywords representing the search trend by visiting [http://localhost:5000](http://localhost:5000/) in your web browser. You can also see their search volume, normalized. The data will be presented in the form of  json and sorted in descending order.
 
 # 💡 Results
-|Console output|Web json data http://localhost:5000 |
-|--|--|
-|![](https://velog.velcdn.com/images/sbeen1840/post/ebce6bfb-d833-4f32-bfd8-4010b64fe9d4/image.png)|![image](https://user-images.githubusercontent.com/108644811/218129926-1a4f0d54-57c6-4b75-bcc6-b33929be18c7.png)|
+|Web json data http://localhost:5000 |
+|:---:|
+|![image](https://user-images.githubusercontent.com/108644811/218414366-905ba67a-d3e1-4375-ae13-2c011fe7d6bd.png)|
+|Console output |
+| ![image](https://user-images.githubusercontent.com/108644811/218413841-05fec875-6d98-48b4-9215-0130952b2411.png)|
+
+
 
 
 # 📑 Execution
