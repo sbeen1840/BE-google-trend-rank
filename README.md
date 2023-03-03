@@ -1,6 +1,6 @@
 # **Google-Trends-Analyzer**
 
-A Python script that scrapes and analyzes data using Google Trends and various Python libraries.
+A Python script that scrapes and analyzes data using Google Trends and various Python  libraries.
 
 ![image](https://user-images.githubusercontent.com/108644811/218410166-55c0f2c1-6567-44d5-b5e7-1d2c08ab7f02.png)
 
