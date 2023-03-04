@@ -82,7 +82,7 @@ self.dicts = 7 # json파일의 초기
 ### Step 4 : Run the script by typing python `main.py` in the terminal.
 ![image](https://user-images.githubusercontent.com/108644811/218135256-a527b011-0b86-4f49-98ee-83b8b41698b1.png)
 
-### Step 5 : Access the data by visiting `http://localhost:5000` in your web browser.
+### Step 5 : Access the data by visiting `http://localhost:5000/home` in your web browser.
 
 After running the script, you can access keywords representing the search trend by visiting [http://localhost:5000](http://localhost:5000/) in your web browser. You can also see their search volume, normalized. The data will be presented in the form of  json and sorted in descending order.
 
