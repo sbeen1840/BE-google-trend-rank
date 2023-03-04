@@ -84,7 +84,7 @@ self.dicts = 7 # json파일의 초기
 
 ### Step 5 : Access the data by visiting `http://localhost:5000/home` in your web browser.
 
-After running the script, you can access keywords representing the search trend by visiting [http://localhost:5000](http://localhost:5000/) in your web browser. You can also see their search volume, normalized. The data will be presented in the form of  json and sorted in descending order.
+After running the script, you can access keywords representing the search trend by visiting [http://localhost:5000/home](http://localhost:5000/home) in your web browser. You can also see their search volume, normalized. The data will be presented in the form of  json and sorted in descending order.
 
 # 💡 Results
 |Web json data http://localhost:5000 |
