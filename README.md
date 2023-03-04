@@ -87,7 +87,7 @@ self.dicts = 7 # json파일의 초기
 After running the script, you can access keywords representing the search trend by visiting [http://localhost:5000/home](http://localhost:5000/home) in your web browser. You can also see their search volume, normalized. The data will be presented in the form of  json and sorted in descending order.
 
 # 💡 Results
-|Web json data http://localhost:5000 |
+|Web json data http://localhost:5000/home |
 |:---:|
 |![image](https://user-images.githubusercontent.com/108644811/218414366-905ba67a-d3e1-4375-ae13-2c011fe7d6bd.png)|
 |Console output |
