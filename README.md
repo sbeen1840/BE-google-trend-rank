@@ -1,4 +1,4 @@
-# **Google-Trends-Analyzer**
+# **Google-Trend-Rank**
 
 A Python script that scrapes and analyzes data using Google Trends and various Python  libraries.
 
